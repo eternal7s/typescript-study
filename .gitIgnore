@@ -1,0 +1,11 @@
+## Mac OS x
+.DS_*
+
+## VS Code
+.vscode
+
+## dist
+dist
+
+## node_modules
+node_modules
