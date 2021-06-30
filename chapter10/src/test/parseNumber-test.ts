@@ -1,4 +1,4 @@
-import {parseNumber} from "../../option/parseNumber";
+import {parseNumber} from "../option/parseNumber";
 
 let value = parseNumber('1')
 .map(value => value + 1)

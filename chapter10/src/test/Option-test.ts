@@ -1,4 +1,4 @@
-import {Option} from "../../option/Option";
+import {Option} from "../option/Option";
 
 let m = Option.Some(1)
 let value = m.map(value => value + 1).getOrElse(1)
