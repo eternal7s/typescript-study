@@ -5,7 +5,7 @@ const insertDocumentTest = async() => {
     try {
         connection = await connect()
         const db = await connection.db('ch12-2')
-        const personCollection = db.collection('person')
+        const personCollection = db.collection('persons')
         const addressesCollection = db.collection('addresses')
 
         const person = {name:'Jack', age: 32}
